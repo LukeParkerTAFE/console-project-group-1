@@ -1,0 +1,26 @@
+{
+  "name": "console-project-group-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha",
+    "mainMenu": "node ./src/UILayer/MainMenu.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukeParkerTAFE/console-project-group-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LukeParkerTAFE/console-project-group-1/issues"
+  },
+  "homepage": "https://github.com/LukeParkerTAFE/console-project-group-1#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chai": "^4.2.0",
+    "mocha": "^7.2.0",
+    "moxios": "^0.4.0"
+  }
+}
